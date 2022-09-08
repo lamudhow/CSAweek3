@@ -9,4 +9,17 @@ Michael Brader 2022003459
 * Insert the Windows 7 image USB stick
 * Start the computer (if necessary, enter the BIOS and configure the machine to boot from USB)
 * When the [Language selection screen](win7lang.png) appears, select appropriate values
-* Do similar for time zone, currency format etc., then click 'Install Windows 7'
+* Do similar for time zone, currency format etc., then click '[Install Windows 7](win7install.png)'
+* Choose [Custom Install, not Upgrade](win7custom.png) to ensure that a fresh installation is performed
+* Choose a setting for [security updates](win78protect.png)
+* The [install should finish](win7instend.png) and then the computer should restart
+* After the restart you will be prompted for a [host and username/password](win7user.png), then a [product key](win7prodkey.png) (the product key can be skipped)
+* Finally you will be asked to [set time and date](win7time.png)
+* At this stage, Windows 7 is installed
+
+## Installing Zorin Linux
+
+* Your first step is to shrink the size of the Windows partition to make room for Zorin Linux. The installer can do this for you, but it is always best to resize Windows partitions inside Windows
+* In Windows 7, hold down 'Win + r' to select the run command dialog box
+* Enter ['diskmgmt.msc' and type return](win7diskmgmt.png)
+* 
