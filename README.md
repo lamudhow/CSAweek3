@@ -22,8 +22,9 @@ Michael Brader 2022003459
 * Your first step is to shrink the size of the Windows partition to make room for Zorin Linux. The installer can do this for you, but it is always best to resize Windows partitions inside Windows
 * In Windows 7, hold down 'Win + r' to select the run command dialog box
 * Enter ['diskmgmt.msc' and type return](win7diskmgmt.png)
-* In the [disk management tool](win7part1.png), right-click on the C: partition and select ['Shrink Volume'](win7part2.png)
+* In the [disk management tool](win7part1.png), right-click on the C: partition and select ['Shrink Volume'](win7partshrink.png)
 * Shrink the C: partition to allocate space for Zorin Linux. [50GB is recommended, it must be at least 20GB](win7shrinksize.png)
+* After the shrink operation, you should see an [unallocated region of disk](win7partunalloc.png) ready for us to install Zorin Linux onto.
 * Save changes, quit the tool and shutdown the machine
 * Insert the Zorin Linux USB stick and start the computer
 * When the machine boots you should see an option to [Try or Install Zorin Linux](zorintry.png). Choose ['Install'](zorininstall.png)
