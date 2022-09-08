@@ -14,7 +14,7 @@ Michael Brader 2022003459
 * Choose a setting for [security updates](win78protect.png)
 * The [install should finish](win7instend.png) and then the computer should restart
 * After the restart you will be prompted for a [host and username/password](win7user.png), then a [product key](win7prodkey.png) (the product key can be skipped)
-* Finally you will be asked to [set time and date](win7time.png)
+* Finally you will be asked to [set time and date](win7timedate.png)
 * At this stage, Windows 7 is installed
 
 ## Installing Zorin Linux
@@ -22,4 +22,17 @@ Michael Brader 2022003459
 * Your first step is to shrink the size of the Windows partition to make room for Zorin Linux. The installer can do this for you, but it is always best to resize Windows partitions inside Windows
 * In Windows 7, hold down 'Win + r' to select the run command dialog box
 * Enter ['diskmgmt.msc' and type return](win7diskmgmt.png)
-* 
+* In the [disk management tool](win7part1.png), right-click on the C: partition and select ['Shrink Volume'](win7part2.png)
+* Shrink the C: partition to allocate space for Zorin Linux. [50GB is recommended, it must be at least 20GB](win7shrinksize.png)
+* Save changes, quit the tool and shutdown the machine
+* Insert the Zorin Linux USB stick and start the computer
+* When the machine boots you should see an option to [Try or Install Zorin Linux](zorintry.png). Choose ['Install'](zorininstall.png)
+* You will be given options to install Zorin on the whole hard drive, or alongside Windows 7. Choose ['alongside'](zorinalongside.png)
+* You will be asked to set the timezone.
+* The installation should proceed at this point and when it is complete you will [receive a confirmation](zorincomplete.png)
+* Installation of Zorin Linux is now complete
+
+## Choosing operating system at boot time
+
+When you restart the computer, after the diagnostics you will enter [a tool named Grub](zoringrub.png). At this point you can select using arrow keys and Enter whether to boot into Windows 7 or Zorin
+
